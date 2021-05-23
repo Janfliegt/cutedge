@@ -1,7 +1,5 @@
+Part one 求Fb, eta, delta_mu_ch 等参数
 1. 入口函数是main函数
-
-Part one:
-
 2. data_import_simplification_plot_check函数导入数据并画图,数据转存为plot_original_data/allfrequency.mat
 3. preprocess_before_schnittkanten_spring_ball_for_all_frequency:对原始的allfrequency.mat处理,结果存在plot_corrected_data\allfrequency.mat
 4. optimierung_main_find_Fb_corrected_data_for_all_frequency:part one的主体部分,用进化算法求Fb, 然后求eta,delta_mu_c等参数
